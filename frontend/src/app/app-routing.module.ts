@@ -25,7 +25,7 @@ const routes: Routes = [
   },
   {
     path:'reset-password', 
-    title:'Reset Your Password | EST SB', 
+    title:'Reset Your Password', 
     component: ResetPasswordComponent
   },
   {
@@ -75,17 +75,17 @@ const routes: Routes = [
       },
       {
         path:'profile',
-        title:'Welcome To Your Profile  | EST SB', 
+        title:'Welcome To Your Profile', 
         component: ProfileComponent
       },
       {
         path:'',
-        title:'Notre Formations | EST SB', 
+        title:'Notre Formations', 
         component: FormationComponent
       },
       {
         path:'contact',
-        title:'Contactez-Nous | EST SB', 
+        title:'Contactez-Nous', 
         component: ContactComponent
       },
     ]
